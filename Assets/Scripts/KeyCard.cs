@@ -7,6 +7,7 @@ public class KeyCard : MonoBehaviour
 
     public bool playerInRange = false;
     public Door door;
+    public Door door_2;
 
     private void OnTriggerEnter(Collider other)
     {
